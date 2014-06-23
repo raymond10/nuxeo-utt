@@ -1,0 +1,241 @@
+/**********************************************************************
+
+    fil d'ariane
+    
+***********************************************************************/
+.fil_ariane {
+	font: normal 11px 'Lucida Grande', Verdana, Arial, sans-serif;
+	color: #666666;
+	margin-bottom: 20px;
+}
+
+.fil_ariane a,.fil_ariane a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+
+.fil_ariane a:hover {
+	text-decoration: underline;
+}
+
+/**********************************************************************
+
+    plan du site
+    
+***********************************************************************/
+.tree {
+	font: normal 11px 'Lucida Grande', Verdana, Arial, sans-serif;
+}
+
+.tree tr td a {
+	text-decoration: none;
+	color: #0066cc;
+}
+
+.tree tr td a:hover {
+	text-decoration: underline;
+}
+
+.tree tr td a:visited {
+	color: #003399;
+}
+
+/**********************************************************************
+
+    menu
+    
+***********************************************************************/
+.menu {
+	margin-bottom: 20px;
+}
+
+.menu_button {
+	float: left;
+	margin-left: 8px;
+	border: 1px solid #c7c7c7;
+}
+
+.menu_recherche {
+	float: left;
+	margin-left: 15px;
+}
+
+.menu_recherche form {
+	margin-bottom: 0;
+}
+
+.menu_image {
+	padding: 5px;
+	float: left;
+}
+
+.menu_image img {
+	border: 0px;
+}
+
+.menu_text {
+	padding: 5px 5px 5px 0px;
+	font: normal 11px 'Lucida Grande', Verdana, Arial, sans-serif;
+	color: #333333;
+	float: left;
+}
+
+.menu_text a,.menu_text a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+
+.menu_text a:hover {
+	text-decoration: underline;
+}
+
+.clearer {
+	clear: both;
+}
+
+/**********************************************************************
+
+    tableau
+    
+***********************************************************************/
+.dataOutput {
+	border-collapse: collapse;
+	margin-bottom: 5px;
+	margin-top: 7px;
+	border: #333333;
+	font: normal 11px 'Lucida Grande', Verdana, Arial, sans-serif;
+	border-spacing: 0;
+}
+
+table.dataOutput thead th a,table.dataOutput thead th a:hover,table.dataOutput thead th a:active,table.dataOutput thead th a:visited
+	{
+	color: #666666;
+}
+
+.dataOutput td table td {
+	border: 0px none transparent;
+}
+
+.dataOutput td a {
+	text-decoration: none;
+	color: #0066cc;
+}
+
+.dataOutput td a:hover {
+	text-decoration: underline;
+}
+
+.dataOutput td a:visited {
+	color: #003399;
+}
+
+table.dataOutput thead th {
+	border-bottom: 1px solid #c7c7c7;
+	color: #666666;
+	background: #f1f2f3;
+	padding: 5px 8px;
+	text-align: left;
+}
+
+.dataOutput td {
+	border-bottom: 1px solid #c7c7c7;
+	border-top: 1px solid #c7c7c7;
+	padding: 5px 8px;
+}
+
+.dataOutput .button {
+	margin: 2px 10px 2px 0px;
+}
+
+table.dataOutput th a img {
+	vertical-align: bottom;
+	margin: 0 0 0 2px;
+	padding: 0;
+}
+
+.dataOutput .iconColumn img {
+	display: block;
+}
+
+.dataOutput th {
+	color: #fff;
+	background-color: #333333;
+	padding: 4px 5px;
+	text-align: left;
+}
+
+.dataRowEven {
+	background: #fff;
+}
+
+.dataRowOdd {
+	background: #ecf6ff;
+}
+
+/**********************************************************************
+
+    rss
+
+***********************************************************************/
+.icon_rss {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.icon_rss img {
+	border: 0px;
+}
+
+/**********************************************************************
+
+    actions
+
+***********************************************************************/
+.download {
+	
+}
+
+/**********************************************************************
+   
+    @media
+
+***********************************************************************/
+@media ( min-width :980px) {
+	.table-responsive {
+		width: 65%;
+		margin-left: 1px;
+	}
+	.wrap {
+		margin: 5px 10px 2em 10px;
+	}
+}
+
+@media ( max-width :480px) {
+	.table-responsive>.dataOutput {
+		width: auto;
+		margin-left: 1px;
+	}
+	.wrap {
+		margin: 5px 5px 2em 5px;
+	}
+}
+
+@media ( max-width :767px) {
+	.table-responsive {
+		width: 65%;
+		margin-left: 1px;
+	}
+	.wrap {
+		margin: 5px 10px 2em 10px;
+	}
+}
+
+@media ( min-width :768px) and (max-width:979px) {
+	.table-responsive {
+		width: 65%;
+		margin-left: 1px;
+	}
+	.wrap {
+		margin: 5px 10px 2em 10px;
+	}
+}
